@@ -130,6 +130,35 @@ header {
     font-size: 1.2em;
     background-color: rgba(74, 170, 165, .7);
 }
+
+/*sidebar*/
+.sidebar {
+	padding: 30px;
+	width: 100%;
+	float: right;
+	max-width: 270px;
+	background: #ffffff;
+	border: 1px solid #dddddd;
+	margin-bottom: 20px;
+}
+h3,
+.sidebar h2 {
+	border-bottom: 2px solid #eeeeee;
+	padding-bottom: 20px;
+	margin-bottom: 15px;
+	line-height: 22px;
+}
+
+.social {
+	width: 62px;
+	height: 62px;
+	margin-top: 8px;
+	margin-right: 5px;
+}
+.social:last-child {
+	margin-right: 0;
+}
+
 /* Contact Page */
 form {
     width: 100%;
